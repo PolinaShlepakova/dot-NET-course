@@ -1,0 +1,6 @@
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\bin\Debug\Student1.exe
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\bin\Debug\Student1.pdb
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\obj\Debug\Student1.csprojAssemblyReference.cache
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\obj\Debug\Student1.csproj.CoreCompileInputs.cache
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\obj\Debug\Student1.exe
+D:\Education\CurrEdu\NET\Projects\01_Student\Student1\obj\Debug\Student1.pdb
