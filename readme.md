@@ -8,7 +8,7 @@ Create class Student, which contains information about student's name and grades
 
 ### Using LINQ to Objects
 
-Create a "database" (some object, i.e. a book or a contact) and store it in a collection. Add serialization to it.
+Create some objects (i.e. books or contacts) and store them in a collection. Add serialization to this collection.
 
-Create a menu of operations with "database" using LINQ (search, ordering, etc.).
+Create a menu of operations with collection using LINQ (search, ordering, etc.).
 
