@@ -1,5 +1,7 @@
-# 1. LINQ
+# 2. LINQ
 
-Визначити та реалізуати довільну "Базу даних" (Бібліотека, телефонний довідник, тощо), яка зберігається в типізованій колекції. (Потім серіалізується в файл)
+### Using LINQ to Objects
 
-Реалізувати меню вибору операцій для роботи з бібліотекою використавши засоби Linq (пошук за різними критеріями, сортування, і т.д. )
+Create a "database" (some object, i.e. a book or a contact) and store it in a collection. Add serialization to it.
+
+Create a menu of operations with "database" using LINQ (search, ordering, etc.).
