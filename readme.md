@@ -12,3 +12,11 @@ Create some objects (i.e. books or contacts) and store them in a collection. Add
 
 Create a menu of operations with collection using LINQ (search, ordering, etc.).
 
+# 3. WPF's DataGrid
+
+### Using WPF's DataGrid to show data
+
+Create an app with GUI, which loads file contents into Grid, and saves data from Grid to file. Use dialog windows to choose files.
+
+
+
