@@ -1,0 +1,26 @@
+﻿<Window x:Class="PolylineEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PolylineEditor"
+        mc:Ignorable="d"
+        Title="Polyline editor" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="137*"/>
+            <ColumnDefinition Width="655*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Load from file" HorizontalAlignment="Left" Margin="415,6,0,0" 
+                VerticalAlignment="Top" Width="100" Height="26" Click="btnOpenFile_Click" Grid.Column="1"/>
+        <Button Content="Save to file" HorizontalAlignment="Left" Margin="535,6,0,0" 
+                VerticalAlignment="Top" Width="100" Height="26" Click="btnSaveFile_Click" Grid.Column="1"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="127,6,0,0" 
+                VerticalAlignment="Top" Width="100" Height="26" Click="btnClear_Click" Grid.ColumnSpan="2"/>
+        <Button Content="Undo" HorizontalAlignment="Left" Margin="10,6,0,0" 
+                VerticalAlignment="Top" Width="100" Height="26" Click="btnUndo_Click"/>
+        <Canvas Name="canvas" Background="White" MouseDown="canvas_mouseClick" Margin="0,37,0,0" Grid.ColumnSpan="2">
+            <Polyline Name="polyline" Stroke="Black" StrokeThickness="4" />
+        </Canvas>
+    </Grid>
+</Window>
